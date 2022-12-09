@@ -1,0 +1,76 @@
+
+
+
+/* first card oneJobe */
+.lien{
+    height:60px;
+    width: 100%;
+    text-align:center;
+    vertical-align:middle;
+    padding-top: 20px;
+    margin-top: -10px;
+
+  
+    
+}
+
+.content{
+    width: 360px;
+    height: 340px;
+}
+/* .lien:hover{
+    background-color: aqua;
+} */
+.bouton{
+    text-align: center;
+    padding-top: 10%;
+    background-color: #1d2150;
+    border-radius:0px 0px 0px 10px;
+   
+}
+.photo{
+    width:100%;
+    height:200px;
+    border-radius:inherit
+}
+.ligne2{
+    margin:0px ;
+    height: 50%;
+}
+.oneJobe{
+    margin: auto;
+    width:90%;
+    /* height:320px; */
+    border-radius:10px 10px 10px 10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.oneJobe > .row , .oneJobe .image{
+    border-radius:10px 10px 0px 0px;
+}
+.oneJobe:hover , .card-hirfa:hover{
+    /* width:100%; */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+    /* opacity: 1;
+    transition: opacity 0.3s ease-in-out; */
+    transform: scale(1.2,1.2);
+   
+    /* height: 90%; */
+}
+
+
+/* second card  */
+.card-hirfa{
+    /* background-image: url(../media/unsplash-photo-2.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 30px !important;
+    color: white;
+    width: 90%; 
+    margin:auto;
+    height: 90%;
+}
+.skills{
+    height: 90px;
+}
+
